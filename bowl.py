@@ -26,5 +26,11 @@ class BowlingGame():
         self.frame_totals.append(frame['totals'])
         return frame
 
+    def update_score():
+        """
+        Update the current score with running total
+        """
+        pass
+
     def game():
         pass
