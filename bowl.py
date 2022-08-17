@@ -48,6 +48,7 @@ class BowlingGame():
         for i, item in enumerate(cumulative_score):
             tot_score.append(sum(cumulative_score[:i+1]))
         self.scoreboard = tot_score
+        self.current_score = tot_score[-1:]
         return tot_score
 
     def game(self, frames_bowled):

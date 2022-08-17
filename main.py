@@ -12,4 +12,3 @@ cumulative_score = t.game(frames_bowled)
 score = t.update_score(cumulative_score)
 
 print(score)
-print(t.scoreboard)
